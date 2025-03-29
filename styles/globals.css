@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f0f9ff
+}
+
+.firebase-emulator-warning {
+    display: none !important;
+}
+
+.spinner {
+    animation: spin infinite linear;
+    display: block;
+    margin: auto;
+}
